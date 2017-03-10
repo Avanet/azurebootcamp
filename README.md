@@ -24,7 +24,7 @@ npm install
 Y ejecutar servidor
 
 ```sh
-npm star
+npm start
 ```
 
 ## Authors

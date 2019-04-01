@@ -5,7 +5,7 @@
  is the file you need to edit to change the look of the
  theme.
  However we used Less script to make things easy to maintain, this is the compressed ourput, we recommend to edit the less files and then recombile the files and add the result here, if you don't like to use less you can edit this file here.
- 
+
  This files contents are outlined below.
  01.	Theme Reset Style
  02.	Global Elements
@@ -153,7 +153,7 @@ input:focus,
 	box-shadow:none !important;
 }
 /*======================
-		 Select 		
+		 Select
 ======================*/
 .tg-select{
 	width: 100%;
@@ -193,7 +193,7 @@ input:focus,
 }
 .tg-select select option{color:#ddd;}
 /*======================
-		CheckBox		
+		CheckBox
 ======================*/
 .tg-radio,
 .tg-radio label,
@@ -313,7 +313,7 @@ p ins { color: #999; }
 dl dd { margin-left: 20px; }
 address { font-style: italic; }
 /*==============================================
-			Global Elements						
+			Global Elements
 ==============================================*/
 .tg-haslayout{
 	width:100%;
@@ -562,7 +562,7 @@ li.tg-rss a{background:#ff6600;}
 }
 .tg-relativepostion {position: relative;}
 /*==============================================
-			Theme Pagination					
+			Theme Pagination
 ==============================================*/
 .tg-pagination{
 	width:100%;
@@ -625,7 +625,7 @@ li.tg-rss a{background:#ff6600;}
 .tg-pagination ul li.tg-nextpage a:hover:after{right:2px;}
 .tg-pagination ul li.tg-prevpage a:hover:after{left:2px;}
 /*==============================================
-			Theme BreadCrumb					
+			Theme BreadCrumb
 ==============================================*/
 .tg-breadcrumb {
 	padding: 0;
@@ -707,7 +707,7 @@ li.tg-rss a{background:#ff6600;}
 .tg-prev:hover span:after,
 .tg-next:hover span:after{left:3px;}
 /*==============================================
-			Theme Style							
+			Theme Style
 ==============================================*/
 .tg-home{}
 .tg-wrapper{overflow:hidden;}
@@ -788,7 +788,7 @@ body.tg-homefive{padding:0;}
 	border-radius: 12px 12px 0 12px;
 }
 /*==============================================
-			Header								
+			Header
 ==============================================*/
 .tg-header{
 	top: 0;
@@ -911,7 +911,7 @@ body.tg-fixedme .tg-header .tg-navigationarea{padding: 0;}
 	width:100%;
 }
 /*==============================================
-			Sidenavbar Style					
+			Sidenavbar Style
 ==============================================*/
 .spread-overlay .tg-sidenavholder{
 	/* float:left; */
@@ -1071,7 +1071,7 @@ body.tg-fixedme .tg-header .tg-navigationarea{padding: 0;}
 	margin:5px 0 0;
 }
 /*==============================================
-			Home Banner Style					
+			Home Banner Style
 ==============================================*/
 .tg-themepostimg {
 	margin:0;
@@ -1140,7 +1140,7 @@ body.tg-fixedme .tg-header .tg-navigationarea{padding: 0;}
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-	
+
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -1169,7 +1169,7 @@ body.tg-fixedme .tg-header .tg-navigationarea{padding: 0;}
 	padding:130px 0 0;
 	text-align:center;
 	position:relative;
-	background:url(../images/texture.png) no-repeat;
+	/* background:url(../images/texture.png) no-repeat; */
 	background-position:center center;
 }
 .tg-datetime{
@@ -1259,14 +1259,14 @@ body.tg-fixedme .tg-header .tg-navigationarea{padding: 0;}
 	display:block;
 }
 /*==============================================
-			About us Style					
+			About us Style
 ==============================================*/
 .tg-aboutus{
 	width:100%;
 	float:left;
 }
 .tg-aboutus .tg-textshortcode{padding:38px 0;}
-.tg-aboutus 
+.tg-aboutus
 .tg-aboutus .tg-sectionheading:before{
 	left:0;
 	margin:0;
@@ -1320,7 +1320,7 @@ body.tg-fixedme .tg-header .tg-navigationarea{padding: 0;}
 	background:#fff;
 }
 /*==============================================
-			Event Counter Style					
+			Event Counter Style
 ==============================================*/
 .tg-counterarea{
 	width:100%;
@@ -1344,7 +1344,7 @@ body.tg-fixedme .tg-header .tg-navigationarea{padding: 0;}
 	justify-content: center;
 	align-items: flex-start;
 	align-content: center;
-	
+
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -1550,7 +1550,7 @@ blockquote{
 	width:auto !important;
 }
 /*==============================================
-			Confrences Style					
+			Confrences Style
 ==============================================*/
 .tg-eventconfrences{
 	width:100%;
@@ -1839,7 +1839,7 @@ blockquote{
 	display:block;
 	-webkit-border-radius: 50%;
 	border-radius:50%;
-	
+
 }
 .tg-eventspeaker .tg-contentbox{
 	width:auto;
@@ -1864,7 +1864,7 @@ blockquote{
 	padding:0;
 }
 /*==============================================
-			Speakers Style					
+			Speakers Style
 ==============================================*/
 .tg-speakers,
 .tg-speaker{
@@ -1914,7 +1914,7 @@ blockquote{
 .tg-speaker .tg-contentbox .tg-description{padding:0 0 25px;}
 .tg-speaker .tg-contentbox .tg-description p{margin:0;}
 /*==============================================
-			Ask Question Style					
+			Ask Question Style
 ==============================================*/
 .tg-askquestions{
 	width:100%;
@@ -2070,7 +2070,7 @@ blockquote{
 .tg-formaskquestions .tg-btn:before{background:#fff;}
 .tg-formaskquestions .tg-btn:after{display:none;}
 /*==============================================
-			Packages Style						
+			Packages Style
 ==============================================*/
 .tg-packages{
 	width:100%;
@@ -2207,7 +2207,7 @@ blockquote{
 .tg-package:hover .tg-packagedetail .tg-stars:before,
 .tg-package:hover .tg-packagedetail .tg-stars span:after{color:#fff;}
 /*==============================================
-			Gallery Style						
+			Gallery Style
 ==============================================*/
 .tg-gallerymain{
 	width:100%;
@@ -2394,7 +2394,7 @@ blockquote{
 .tg-btnprev:hover span,
 .tg-btnnext:hover span{top:50%;}
 /*==============================================
-			Packages Style						
+			Packages Style
 ==============================================*/
 .tg-brands{
 	width: 100%;
@@ -2426,7 +2426,7 @@ blockquote{
 .tg-brands li figure a{display: block;}
 .tg-brands li figure a img{display: block;}
 /*==============================================
-			App Style						
+			App Style
 ==============================================*/
 .tg-appbg{
 	position:relative;
@@ -2527,7 +2527,7 @@ blockquote{
 	display:block;
 }
 /*==============================================
-			Registration Style					
+			Registration Style
 ==============================================*/
 .tg-eventvenueregistration{
 	width:100%;
@@ -2649,7 +2649,7 @@ blockquote{
 }
 .tg-sendquery h4{margin:0;}
 /*==============================================
-			Signup Style						
+			Signup Style
 ==============================================*/
 .tg-bgsignup{
 	position:relative;
@@ -2742,7 +2742,7 @@ blockquote{
 	display:block;
 }
 /*==============================================
-			Articles Style						
+			Articles Style
 ==============================================*/
 .tg-articles,
 .tg-newsarticles{
@@ -2805,7 +2805,7 @@ blockquote{
 	background: #dbdbdb;
 }
 /*==============================================
-			Footer Style					
+			Footer Style
 ==============================================*/
 .tg-footer{border-bottom:2px solid;}
 .tg-contastus{
@@ -3930,7 +3930,7 @@ body.tg-fixedme .tg-headervtwo:before{display:none;}
 	position: absolute;
 }
 /*==============================================
-				Sidebar Widgets					
+				Sidebar Widgets
 ==============================================*/
 .tg-sidebar{
 	width:100%;
@@ -4198,3 +4198,9 @@ body.tg-fixedme .tg-headervtwo:before{display:none;}
 	position:absolute;
 	margin:-63px 0 0 -64px;
 }
+
+.hide-mobile {
+  display: none; }
+  @media only screen and (min-width: 768px) {
+    .hide-mobile {
+      display: block; } }

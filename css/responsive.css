@@ -733,3 +733,7 @@
 @media (max-width:320px){
 	.tg-forntslider {margin: 23px 0;}
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .tg-sectionTop { margin-top: 321px; }
+}

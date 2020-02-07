@@ -88,7 +88,7 @@ jQuery(document).on('ready', function () {
   		NEXT EVENT COUNTER
   -------------------------------------- */
   var _tg_upcomingeventcounter = jQuery('#tg-upcomingeventcounter');
-  _tg_upcomingeventcounter.countdown('2019/04/27', function (event) {
+  _tg_upcomingeventcounter.countdown('2020/04/25', function (event) {
     var $this = jQuery(this).html(event.strftime('' +
       '<div class="tg-eventcounter"><span>%-D</span><span> Days Left</span></div>' +
       '<div class="tg-eventcounter"><span>%H</span><span>Hours</span></div>' +
